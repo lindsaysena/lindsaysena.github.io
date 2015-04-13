@@ -1,7 +1,89 @@
-h1, p {
-	color: white;
+body,p {
+	background-color: #FFFFFF;
+	color: #000000; 
+	font-size: 14px; 
+	font-family: Avenir, Helvetica, sans-serif; 
+	padding-right: 60px; 
+	padding-left: 60px;
+	padding-top: 5px; 
 }
 
-body {
-	background: orange;
+h1 {
+	color: #FF3A77;
+	font-family: Avenir, Helvetica, sans-serif; 
+	text-align: center;
+	font-size: 50px; 
+	line-height: 20%;
 }
+img {
+	    position: right;
+
+}
+
+#slogan
+{
+	text-align: center; 
+	font-size: 25px;
+	line-height: 20%;
+}
+
+#navcontainer ul
+{
+	padding: .2em 0;
+	margin: 0;
+	list-style-type: none;
+	background-color: #FF007F;
+	color: #FFFFFF;
+    width: 100%;
+	font-family: Avenir, Helvetica, sans-serif; 
+	text-align: center;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer li a
+{
+	text-decoration: none;
+	background-color: #FF007F;
+	color: #FFFFFF;
+	padding: .2em 1em;
+	border-right: 1px solid #fff;
+}
+
+#navcontainer li a:hover
+{
+	color: #EEFF00;
+}
+
+#contactme
+{
+	text-align: center;
+	line-height: 20%;
+}
+#contact ul
+{
+	text-align: center;
+	padding: .2em 0;
+	margin: 0;
+	list-style-type: none;
+	color: #FF007F;
+    width: 100%;
+	font-family: Avenir, Helvetica, sans-serif; 
+}
+
+#contact ul li { display: inline; }
+
+#contact li a
+{
+	text-decoration: none;
+	background-color: #FFFFFF;
+	color: #FF007F;
+	padding: .2em 1em;
+	border-right: 1px solid #fff;
+}
+
+#contact li a:hover
+{
+background-color: #EEFF00;
+}
+
