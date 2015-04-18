@@ -1,8 +1,8 @@
-body,p {
+body {
 	background-color: #FFFFFF;
 	color: #000000; 
 	font-size: 14px; 
-	font-family: Avenir, Helvetica, sans-serif; 
+	font-family: 'Avenir', sans-serif;
 	padding-right: 60px; 
 	padding-left: 60px;
 	padding-top: 5px; 
@@ -10,24 +10,20 @@ body,p {
 
 h1 {
 	color: #FF3A77;
-	font-family: Avenir, Helvetica, sans-serif; 
 	text-align: center;
 	font-size: 50px; 
-	line-height: 20%;
-}
-img {
-	    position: right;
-
+	line-height: 100%;
+	font-family: 'Homemade Apple', cursive;
 }
 
-#slogan
+h2
 {
 	text-align: center; 
 	font-size: 25px;
-	line-height: 20%;
+	line-height: 50%;
 }
 
-#navcontainer ul
+nav
 {
 	padding: .2em 0;
 	margin: 0;
@@ -35,32 +31,43 @@ img {
 	background-color: #FF007F;
 	color: #FFFFFF;
     width: 100%;
-	font-family: Avenir, Helvetica, sans-serif; 
 	text-align: center;
 }
 
-#navcontainer ul li { display: inline; }
 
-#navcontainer li a
-{
+nav a {
 	text-decoration: none;
 	background-color: #FF007F;
 	color: #FFFFFF;
 	padding: .2em 1em;
 	border-right: 1px solid #fff;
+	font-weight: bold;	
 }
 
-#navcontainer li a:hover
+nav a:hover
 {
 	color: #EEFF00;
+}
+
+#vegetables {
+	width: 400px;
+	height: 250px;
+	float: right;
+	margin-top: 36px;
+}
+
+#recipes {
+	padding-left: 16px;
 }
 
 #contactme
 {
 	text-align: center;
 	line-height: 20%;
+	font-family: 'Homemade Apple', cursive;
 }
-#contact ul
+
+#contact
 {
 	text-align: center;
 	padding: .2em 0;
@@ -68,13 +75,9 @@ img {
 	list-style-type: none;
 	color: #FF007F;
     width: 100%;
-	font-family: Avenir, Helvetica, sans-serif; 
 }
 
-#contact ul li { display: inline; }
-
-#contact li a
-{
+#contact a {
 	text-decoration: none;
 	background-color: #FFFFFF;
 	color: #FF007F;
@@ -82,8 +85,6 @@ img {
 	border-right: 1px solid #fff;
 }
 
-#contact li a:hover
-{
-background-color: #EEFF00;
+#contact a:hover {
+	background-color: #EEFF00;
 }
-
